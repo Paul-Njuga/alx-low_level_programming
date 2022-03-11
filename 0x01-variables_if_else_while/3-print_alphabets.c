@@ -14,6 +14,11 @@ int main(void)
 	{
 		putchar(tolower(i));
 	}
+
+	for (i = 'A'; i <= 'Z'; i++)
+	{
+		putchar(toupper(i));
+	}
 	putchar('\n');
 	return (0);
 }
