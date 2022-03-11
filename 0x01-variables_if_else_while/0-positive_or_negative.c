@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/* Insert stdio.h for output */
 
 /**
- * Check if n is <, ==, > n
+ * main - Check if n is <, ==, > n
  *
- * Return (0)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
