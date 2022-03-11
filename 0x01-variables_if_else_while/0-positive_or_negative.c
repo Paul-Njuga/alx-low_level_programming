@@ -6,7 +6,7 @@
  * Check if n is <, ==, > n
  *
  * Return (0)
- * */
+ */
 int main(void)
 {
 	int n;
