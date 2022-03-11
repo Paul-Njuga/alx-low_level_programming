@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print 1 to 10
+ * main - Print 0 to 10
  * followed by a new line
  * Return: Always 0 (Success)
  */
