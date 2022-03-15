@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Loop through alphabet
+ * print_alphabet - Loop through alphabet
  *
  * Return: Always 0 (Success)
  */
