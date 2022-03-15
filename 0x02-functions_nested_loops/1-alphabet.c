@@ -1,12 +1,19 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - Loop through alphabet
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(void);
-	return (0);
+        char ch = 'a';
+
+        while (ch <= 'z')
+        {
+                _putchar(ch);
+                ch++;
+        }
+
+        _putchar('\n');
 }

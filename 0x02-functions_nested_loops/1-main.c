@@ -1,22 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Loop through alphabet
- * except for 'e' & 'q'
- * followed by a new line
- * Return: Always 0 (Success)
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-void print_alphabet(void)
+int main(void)
 {
-	char ch = 'a';
-
-	while (ch <= 'z')
-	{
-		if (ch != 'e' && ch != 'q')
-		{
-                        putchar(ch);
-		}
-		ch++;
-	}
-	putchar('\n');
+        print_alphabet();
+        return (0);
 }
