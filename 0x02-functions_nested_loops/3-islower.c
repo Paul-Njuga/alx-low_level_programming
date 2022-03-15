@@ -1,17 +1,12 @@
-#include <cytpe.h>
 #include "main.h"
 
 /**
  * _islower - Checks for lowercase character
- *
- * Return: 1 || 0
+ * @c: character to check
+ * Return: 1 if c is lowercase || 0 otherwise
  */
 
 int _islower(int c)
 {
-	int n = islower(c);
-	if (n > 0)
-		return (1);
-	else if (n == 0)
-		return (0);
+	return (c >= 'a' && c <= 'z');
 }
