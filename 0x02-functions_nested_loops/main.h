@@ -27,3 +27,6 @@ void jack_bauer(void);
 
 /* times_table prototype */
 void times_table(void);
+
+/* add */
+int add(int, int);
