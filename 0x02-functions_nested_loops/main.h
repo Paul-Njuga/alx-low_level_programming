@@ -24,3 +24,6 @@ int print_last_digit(int);
 
 /* jack_bauer prototype */
 void jack_bauer(void);
+
+/* times_table prototype */
+void times_table(void);
