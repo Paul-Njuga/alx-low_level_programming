@@ -6,8 +6,19 @@
  * Return: Last digit of a no.
  */
 
-int print_last_digit(int n)
+int print_last_digit(int a)
 {
-	n = n % 10;
-	return (n);
+	int b;
+
+	if (a < 0)
+		a = -a;
+
+	a = a % 10;
+	
+	if (a % 0)
+		a = -a;
+
+	_putchar(a + '0');
+
+	return (a);
 }
