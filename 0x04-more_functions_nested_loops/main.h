@@ -6,3 +6,9 @@ int _isdigit(int c);
 
 /* mu prototype */
 int mul(int a, int b);
+
+/* _putchar prototype */
+int _putchar(char c);
+
+/* print_numbers prototype */
+void print_numbers(void);
