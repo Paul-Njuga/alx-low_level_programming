@@ -12,3 +12,6 @@ int _putchar(char c);
 
 /* print_numbers prototype */
 void print_numbers(void);
+
+/* print_most_numbers */
+void print_most_numbers(void);
