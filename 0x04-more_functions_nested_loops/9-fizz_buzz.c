@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_numbers - Print 0 to 10 using _putchar
@@ -12,29 +12,22 @@ void main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if (i % 3 == 0 && i % 5 != 0)
 		{
-			printf("FizzBuzz");
-			printf(" ");
-		} else if (i % 3 == 0)
+			printf(" Fizz");
+		} else if (i % 5 == 0 && i % 3 != 0)
 		{
-			printf("Fizz");
-			printf(" ");
-		} else if (i % 5 == 0)
+			printf(" Buzz");
+		} else if (i % 3 == 0 && i % 5 == 0)
 		{
-			if (i > 99)
-				printf("Buzz");
-			else
-			{
-				printf("Buzz");
-				printf(" ");
-			}
-		} else
+			printf(" FizzBuzz");
+		} else if (i == 1)
 		{
 			printf("%d", i);
-			printf(" ");
+		} else
+		{
+			printf(" %d", i);
 		}
 	}
-
-	_putchar('\n');
+	printf('\n');
 }
