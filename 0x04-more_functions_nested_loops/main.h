@@ -30,3 +30,6 @@ void print_square(int size);
 
 /* print_triangle */
 void print_triangle(int size);
+
+/* print_number */
+void print_number(int n);
