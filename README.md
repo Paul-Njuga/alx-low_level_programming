@@ -1,1 +1,1 @@
-Rubber Duck Debbuging in C
+This repository contains C projects and other low level programming exercices.
