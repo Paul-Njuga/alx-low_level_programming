@@ -5,7 +5,7 @@
  * *create_array - creates an array of chars,
  * & initializes it with a specific char
  * @size: size of the array to create
- * @c; char to initialize the array c
+ * @c: char to initialize the array c
  *
  * Return: pointer to the array (Success), NULL (Error)
  */
@@ -21,13 +21,13 @@ char *create_array(unsigned int size, char c)
 
 	if (s == NULL)
 		return (0);
-	
+
 	while (i < size)
 	{
 		*(s + i) = c;
 		i++;
 	}
-	
+
 	*(s + i) = '\0';
 
 	return (s);
