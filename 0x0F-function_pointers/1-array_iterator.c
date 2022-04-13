@@ -7,14 +7,16 @@
  * @array: array to iterate over
  * @size: size of the array
  * @action: pointer to the function you need to use
+ *
+ * Return: no return
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unusigned int i;
+	unsigned int i;
 
 	if (!array || !action)
 		return;
 
-	for (i=0; i<size; i++)
+	for (i = 0; i < size; i++)
 		action(array[i]);
 }
