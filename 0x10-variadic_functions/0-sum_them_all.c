@@ -12,14 +12,17 @@ int sum_them_all(const unsigned int n, ...)
 	int sum = 0;
 	va_list list;
 
+	/**Verify the number of arguments*/
 	if (n == 0)
 		return (0);
 
+	/**Initializing arguments to store all values after n*/
 	va_start(list, n);
 
 	for (i = 0; i < n; i++)
 		sum += va_arg(list, int);
 
+	/**Clean the list*/
 	va_end(list);
 
 	return (sum);
