@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-        int ch = 97;
+	int ch = 97;
 
-        for (ch = 97; ch <= 122; ch++)
-                putchar(ch);
+	for (ch = 97; ch <= 122; ch++)
+		putchar(ch);
 	for (ch = 65; ch <= 90; ch++)
-                putchar(ch);
-        putchar('\n');
-        return (0);
+		putchar(ch);
+	putchar('\n');
+	return (0);
 }
