@@ -1,7 +1,7 @@
 # C - Hello, World :computer:
 This project is an intro to C and covers topics such as C, it's compilation process, & the Betty Coding style.
 
-## Requeriments :bookmark_tabs:
+## Requirements :bookmark_tabs:
 ### C
 * Allowed editors: ```vi```, ```vim```, ```emacs```
 * All your files will be compiled on Ubuntu 20.04 LTS using ```gcc``` using options ```-wall -werror -Wextra -pedantic -std=gnu89```
