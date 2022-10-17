@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints prints all single digit numbers of base 10
- * starting from 0, followed by a new line
+ * main - Prints prints all single digit numbers of base 16
+ * starting from 0, followed by a new line using putchar
  *
  * Return: Always 0 (Success)
  */
