@@ -22,15 +22,15 @@ int main(void)
 				{
 					if (k > j && j > i)
 					{
-						putchar(i);
-						putchar(j);
-						putchar(k);
-						/*Handles punctuations*/
-						if (i != '7')
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					putchar(i);
+					putchar(j);
+					putchar(k);
+					/*Handles punctuations*/
+					if (i != '7')
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					}
 				}
 			}
