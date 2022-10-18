@@ -5,22 +5,15 @@
  *
  * Return: i
  */
-int print_last_digit(int i)
+int print_last_digit(int a)
 {
-	int l;
+	int b;
 
-	if (i < 0)
-	{
-		i = -i;
-		l = i % 10;
-		l = -l;
-		l = _putchar(l + '0');
-		return (l);
-	}
-	else
-	{
-		l = i % 10;
-		l = _putchar(l + '0');
-		return (l);
-	}
+	if (a < 0)
+		a = -a;
+	b = a % 10;
+	if (b < 0)
+		b = -b;
+	_putchar (a + '0');
+	return (b);
 }
