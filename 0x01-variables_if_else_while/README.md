@@ -14,7 +14,7 @@ This directory is an intro to control flow in C and covers topics such as keywor
 Directories | Description
 ----------- | -----------
 [0-positive_or_negative.c](./0-positive_or_negative.c) | C program that checks if last digit of a number is ```<0```, ```==0```, or ```>0```
-[1-last_digit.c](.1-last_digit.c) | C program that checks if last digit of a number is ```>5```, ```==0```, or ```<6```
+[1-last_digit.c](./1-last_digit.c) | C program that checks if last digit of a number is ```>5```, ```==0```, or ```<6```
 [2-print_alphabet.c](./2-print_alphabet.c) | C program that prints the alphabet in lowercase using ```putchar```
 [3-print_alphabets.c](./3-print_alphabets.c) | C program that prints the alphabet in lowercase, and then in uppercase using ```putchar```
 [4-print_alphabt.c](./4-print_alphabt.c) | C program that prints the alphabet in lowercase except for ```q``` and ```e```
