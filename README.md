@@ -12,8 +12,8 @@ This repository contains C projects and other low level programming exercices.
 ## Table of contents:
 Directories | Description
 ----------- | -----------
-[0x00-hello_world](./hello_world) | This directory is an intro to C and covers it's compilation process & the Betty Coding style.
-[0x01-variables_if_else_while](./0x01-variables_if_else_while) | This directory covers control flow statements in C.
+[0x00-hello_world](./hello_world) | This directory is an intro to C and covers it's compilation process & the Betty Coding style
+[0x01-variables_if_else_while](./0x01-variables_if_else_while) | This directory covers control flow statements in C
 
 ## Quick start :runner:
 Git clone the repository:
