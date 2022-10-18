@@ -10,7 +10,7 @@ This directory is an intro to functions and nested loops in C and covers topics 
 * You are not allowed to use global variables
 * No more than 5 functions per file
 * You are not allowed to use the standard library. Any use of functions like ```printf```, ```puts```, etc… is forbidden
-* You are allowed to use ```\_putchar```
+* You are allowed to use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c)
 * The prototypes of all your functions and the prototype of the function ```\_putchar``` should be included in your header file called main.h
 
 ## Table of contents:
