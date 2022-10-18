@@ -1,6 +1,12 @@
 # C - Hello, World :computer:
 This project is an intro to C and covers topics such as C, it's compilation process, & the Betty Coding style.
 
+### man or help
+* ```gcc```
+* ```printf (3)```
+* ```puts```
+* ```putchar```
+
 ## Requirements :bookmark_tabs:
 ### C
 * Allowed editors: ```vi```, ```vim```, ```emacs```
