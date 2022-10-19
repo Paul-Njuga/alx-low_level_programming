@@ -18,9 +18,9 @@ int main(void)
 	for (i = 1; i <= 50; i++)
 	{
 		if (i != 50)
-			printf("%ld, ", n3);
+			printf("%ld, ", n1);
 		else
-			printf("%ld\n", n3);
+			printf("%ld\n", n1);
 		n3 = n1 + n2;
 		n1 = n2;
 		n2 = n3;
