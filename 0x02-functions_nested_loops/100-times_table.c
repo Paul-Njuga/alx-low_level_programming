@@ -22,24 +22,21 @@ void print_times_table(int n)
 					_putchar((m / 100) + 48);
 					_putchar(((m / 10) % 10) + 48);
 					_putchar((m % 10) + 48);
-				}
-				else if (m >= 10)
+				} else if (m >= 10)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar((m / 10) + 48);
 					_putchar((m % 10) + 48);
-				}
-				else if (m < 10 && j != 0)
+				} else if (m < 10 && j != 0)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(m + 48);
-				}
-				else if (j == 0)
+				} else if (j == 0)
 				{
 					_putchar(m + 48);
 				}
