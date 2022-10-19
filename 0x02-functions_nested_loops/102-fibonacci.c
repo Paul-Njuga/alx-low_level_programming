@@ -17,11 +17,11 @@ int main(void)
 
 	for (i = 1; i <= 50; i++)
 	{
-		n3 = n1 + n2;
 		if (i != 50)
 			printf("%ld, ", n3);
 		else
 			printf("%ld\n", n3);
+		n3 = n1 + n2;
 		n1 = n2;
 		n2 = n3;
 	}
