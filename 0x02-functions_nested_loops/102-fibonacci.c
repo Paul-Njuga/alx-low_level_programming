@@ -17,7 +17,7 @@ int main(void)
 		n3 = n1 + n2;
 		if (n3 % 2 == 0)
 			sum += n3;
-		printf("%d, "sum);
+		printf("%d, ", sum);
 		n1 = n2;
 		n2 = n3;
 	}
