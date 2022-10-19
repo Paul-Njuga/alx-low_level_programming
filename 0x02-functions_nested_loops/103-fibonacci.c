@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	long int i, n1, n2, n3;
+	int i;
+	unsigned long int n1, n2, n3, sum;
 
 	n1 = 1;
 
@@ -16,16 +17,14 @@ int main(void)
 
 	for (i = 1; i <= 4000000; i++)
 	{
-		long int sum;
-
 		if (n1 % 2 == 0)
 		{
 			sum += n1;
-			printf("%ld", sum);
 		}
 		n3 = n1 + n2;
 		n1 = n2;
 		n2 = n3;
 	}
+	printf("%lu\n", sum);
 	return (0);
 }
