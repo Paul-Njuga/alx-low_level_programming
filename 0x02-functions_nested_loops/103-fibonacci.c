@@ -12,13 +12,12 @@ int main(void)
 	int n1 = 1;
 	int n2 = 2;
 	int i, n3, sum;
-	for (i = 3; i <= 50; i++)
+	for (i = 3; i <= 4000000; i++)
 	{
 		n3 = n1 + n2;
-		if (i != 50)
-			printf("%d, ", sum);
-		else
-			printf("%d", n3);
+		if (n3 % 2 == 0)
+			sum += n3;
+		printf("%d, ", sum);
 		n1 = n2;
 		n2 = n3;
 	}
