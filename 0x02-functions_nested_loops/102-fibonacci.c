@@ -11,12 +11,12 @@ int main(void)
 {
 	int n1 = 1;
 	int n2 = 2;
-	int i, n3, sum;
+	int i, n3;
 	for (i = 3; i <= 50; i++)
 	{
 		n3 = n1 + n2;
 		if (i != 50)
-			printf("%d, ", sum);
+			printf("%d, ", n3);
 		else
 			printf("%d", n3);
 		n1 = n2;
