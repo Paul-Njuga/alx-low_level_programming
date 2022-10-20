@@ -16,22 +16,23 @@ This directory is an intro to functions and nested loops in C and covers topics 
 ## Table of contents:
 Directories | Description
 ----------- | -----------
-[0-putchar.c](./0-putchar.c) | C program that checks if last digit of a number is ```<0```, ```==0```, or ```>0```
-[1-alphabet.c](./1-alphabet.c) | C program that checks if last digit of a number is ```>5```, ```==0```, or ```<6```
-[2-print_alphabet_x10.c](./2-print_alphabet_x10.c) | C program that prints the alphabet in lowercase using ```putchar```
-[3-islower.c](./3-islower.c) | C program that prints the alphabet in lowercase, and then in uppercase using ```putchar```
-[4-isalpha.c](./4-isalpha.c) | C program that prints the alphabet in lowercase except for ```q``` and ```e```
-[5-sign.c](./5-sign.c) | C program that prints all single digit numbers of base 10 starting from ```0```
-[6-abs.c](./6-abs.c) | C program that prints all single digit numbers of base 10 starting from ```0``` using ```putchar```
-[7-print_last_digit.c](./7-print_last_digit.c) | C program that prints the lowercase alphabet in reverse using ```putchar```
-[8-24_hours.c](./8-24_hours.c) | C program that prints all single digit numbers of base 16 starting from ```0``` using ```putchar```
-[9-times_table.c](./9-times_table.c) | C program that prints all possible combinations of single-digit numbers
-[10-add.c](./10-add.c) | C program that prints all possible combinations of two digits
-[100-times_table.c](./100-times_table.c) | C program that prints all possible combinations of three digits
-[101-natural.c](./101-natural.c) | C program that prints all possible combinations of two two-digit numbers
-[102-fibonacci.c](./102-fibonacci.c) | C program that prints all possible combinations of two two-digit numbers
-[103-fibonacci.c](./103-fibonacci.c) | C program that prints all possible combinations of two two-digit numbers
-[104-fibonacci.c](./104-fibonacci.c) | C program that prints all possible combinations of two two-digit numbers
+[0-putchar.c](./0-putchar.c) | C program that prints ```_putchar```
+[1-alphabet.c](./1-alphabet.c) | C program that prints the alphabet in lowercase
+[2-print_alphabet_x10.c](./2-print_alphabet_x10.c) | C program that prints 10 times the alphabet in lowercase
+[3-islower.c](./3-islower.c) | C program that checks for lowercase
+[4-isalpha.c](./4-isalpha.c) | C program that checks for alphabetic character
+[5-sign.c](./5-sign.c) | C program that prints the sign of a number
+[6-abs.c](./6-abs.c) | C program that computes the absolute value of an integer
+[7-print_last_digit.c](./7-print_last_digit.c) | C program that prints the last digit of a number
+[8-24_hours.c](./8-24_hours.c) | C program that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
+[9-times_table.c](./9-times_table.c) | C program that prints the 9 times table starting with 0
+[10-add.c](./10-add.c) | C program that adds two integers and returns the result
+[11-print_to_98.c](./11-print_to_98.c) | C program that prints all natural numbers from ```n``` to ```98```
+[100-times_table.c](./100-times_table.c) | C program that prints the ```n``` times table starting with 0
+[101-natural.c](./101-natural.c) | C program that computes and prints the sum of all the multiples of ```3``` or ```5``` below ```1024``` (excluded)
+[102-fibonacci.c](./102-fibonacci.c) | C program that prints the first 50 Fibonacci numbers, starting with ```1``` and ```2```
+[103-fibonacci.c](./103-fibonacci.c) | C program that prints the sum of the even-valued terms
+[104-fibonacci.c](./104-fibonacci.c) | C program that prints the first 98 Fibonacci numbers, starting with ```1``` and ```2```
 
 ## Bugs :loudspeaker:
 No known bugs.
