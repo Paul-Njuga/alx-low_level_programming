@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,7 +7,6 @@
  * Description: For multiples of three print Fizz,
  * for multiples of five print Buzz,
  * for multiples of both three and five print FizzBuzz.
- *
  * Return: Always (0)
  */
 int main(void)
