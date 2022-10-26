@@ -16,5 +16,5 @@ void rev_string(char *s)
 	i--;
 	/* Start moving backwards from current index i */
 	for (; i >= 0; i--)
-		(*(s + i));
+		s = (*(s + i));
 }
