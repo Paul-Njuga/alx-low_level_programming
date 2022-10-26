@@ -12,10 +12,12 @@ void rev_string(char *s)
 	/* Initialize index */
 	i = 0;
 
+	/* Get length of the string */
 	while (*(s + i) != '\0')
 		i++;
 	len = i;
 
+	/* Set start & end initially to start of string */
 	start = s;
 	end = s;
 
@@ -23,13 +25,14 @@ void rev_string(char *s)
 	for (i = 0; i < len - 1; i++)
 		end++;
 
-	/* Start moving backwards from current index i */
+	/* Swap the values in start and end pointer */
 	for (i = 0; i < len / 2; i++)
 	{
 		tmp = *end;
 		*end = *start;
 		*start = tmp;
 
+		/* Update pointer positions */
 		start++;
 		end--;
 	}

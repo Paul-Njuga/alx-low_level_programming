@@ -14,6 +14,8 @@ void print_rev(char *s)
 	/* Move i to last character */
 	while (*(s + i) != '\0')
 		i++;
+
+	/* len - 1 */
 	i--;
 	/* Start moving backwards from current index i */
 	for (; i >= 0; i--)
