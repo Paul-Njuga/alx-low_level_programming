@@ -24,7 +24,7 @@ void rev_string(char *s)
 		end++;
 
 	/* Start moving backwards from current index i */
-	for (c = 0; c < len / 2; i++)
+	for (i = 0; i < len / 2; i++)
 	{
 		tmp = *end;
 		*end = *start;
