@@ -18,13 +18,13 @@ void rev_string(char *s)
 
 	start = s;
 	end = s;
-	
+
 	/* Move i to last character */
-	for (i = 0; i < l - 1; i++)
+	for (i = 0; i < len - 1; i++)
 		end++;
 
 	/* Start moving backwards from current index i */
-	for (c = 0; c < length / 2; i++)
+	for (c = 0; c < len / 2; i++)
 	{
 		tmp = *end;
 		*end = *start;
