@@ -6,15 +6,31 @@
  */
 void rev_string(char *s)
 {
-	int i;
+	int i, len;
+	char *start, *end, tmp;
 
 	/* Initialize index */
 	i = 0;
-	/* Move i to last character */
+
 	while (*(s + i) != '\0')
 		i++;
-	i--;
+	len = i;
+
+	start = s;
+	end = s;
+	
+	/* Move i to last character */
+	for (i = 0; i < l - 1; i++)
+		end++;
+
 	/* Start moving backwards from current index i */
-	for (; i >= 0; i--)
-		*s = (*(s + i));
+	for (c = 0; c < length / 2; i++)
+	{
+		tmp = *end;
+		*end = *start;
+		*start = tmp;
+
+		start++;
+		end--;
+	}
 }
