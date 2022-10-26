@@ -4,7 +4,7 @@
  * _puts - returns the length of a string
  * @str: pointer to char(s)
  */
-int _puts(char *str)
+void _puts(char *str)
 {
 	while (*str != '\0')
 	{
