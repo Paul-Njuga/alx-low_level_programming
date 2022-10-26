@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _puts - returns the length of a string
+ * _puts - prints a string,
+ * followed by a new line to stdout
  * @str: pointer to char(s)
  */
 void _puts(char *str)
