@@ -17,7 +17,7 @@ void puts_half(char *str)
 
 	/* Get mid of legnth */
 	if (len % 2 != 0)
-		/* Some reverse psychology shit */
+		/* Some reverse psychology stuff */
 		mid = ((len) / 2) + 1;
 	else
 		mid = len / 2;
