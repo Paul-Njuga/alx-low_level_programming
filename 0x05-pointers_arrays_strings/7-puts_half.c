@@ -14,10 +14,11 @@ void puts_half(char *str)
 	/* Gets length */
 	while (*(str + len) != '\0')
 		len++;
+	len--;
 
 	/* Get mid of legnth */
 	if (len % 2 != 0)
-		mid = (len - 2) / 2;
+		mid = (len - 1) / 2;
 	else
 		mid = len / 2;
 
