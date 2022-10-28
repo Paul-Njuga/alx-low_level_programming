@@ -12,8 +12,13 @@ This repository contains C projects and other low level programming exercices.
 ## Table of contents:
 Directories | Description
 ----------- | -----------
-[0x00-hello_world](./0x00-hello_world) | This directory is an intro to C and covers it's compilation process & the Betty Coding style
+[0x00-hello_world](./0x00-hello_world) | This directory is an intro to C and covers it's compilation process
 [0x01-variables_if_else_while](./0x01-variables_if_else_while) | This directory covers control flow statements in C
+[0x02-functions_nested_loops](./0x02-functions_nested_loops) | This directory is an intro to functions and nested loops in C
+[0x03-debugging](./0x03-debugging) | This directory covers debbuging in C
+[0x04-more_functions_nested_loops](./0x04-more_functions_nested_loops) | This directory covers more functions and nested loops in C
+[0x05-pointers_arrays_strings](./0x05-pointers_arrays_strings) | This directory covers pointers, arrays, & strings in C
+[0x06-more_pointers_arrays_strings](./0x06-more_pointers_arrays_strings) | This directory covers more pointers, arrays, & strings in C
 
 ## Quick start :runner:
 Git clone the repository:
