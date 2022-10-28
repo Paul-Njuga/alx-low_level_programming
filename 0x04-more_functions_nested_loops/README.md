@@ -31,6 +31,7 @@ Directories | Description
 [100-prime_factor.c](./100-prime_factor.c) | C program that finds and prints the largest prime factor of the number ```612852475143```
 [101-print_number.c](./101-print_number.c) | C function that prints an integer
 
+
 ## Bugs :loudspeaker:
 No known bugs.
 

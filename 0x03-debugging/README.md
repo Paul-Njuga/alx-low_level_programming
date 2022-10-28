@@ -17,6 +17,7 @@ Directories | Description
 [2-largest_number.c](./2-largest_number.c) | Comment out the part of code causing an infinite loop in the output in this C program
 [3-print_remaining_days.c](./3-print_remaining_days.c) | Fix the code so that it correctly prints out the largest of three numbers, no matter the case
 
+
 ## Bugs :loudspeaker:
 No known bugs.
 

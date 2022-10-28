@@ -16,6 +16,7 @@ This directory is an intro to functions and nested loops in C and covers topics 
 ## Table of contents:
 Directories | Description
 ----------- | -----------
+[main.h](./main.h) | C header file that contains function prototypes
 [0-putchar.c](./0-putchar.c) | C program that prints ```_putchar```
 [1-alphabet.c](./1-alphabet.c) | C program that prints the alphabet in lowercase
 [2-print_alphabet_x10.c](./2-print_alphabet_x10.c) | C program that prints 10 times the alphabet in lowercase
