@@ -18,7 +18,7 @@ Directories | Description
 [0x03-debugging](./0x03-debugging) | This directory covers debbuging in C
 [0x04-more_functions_nested_loops](./0x04-more_functions_nested_loops) | This directory covers more functions and nested loops in C
 [0x05-pointers_arrays_strings](./0x05-pointers_arrays_strings) | This directory covers pointers, arrays, & strings in C
-[0x06-more_pointers_arrays_strings](./0x06-more_pointers_arrays_strings) | This directory covers more pointers, arrays, & strings in C
+[0x06-pointers_arrays_strings](./0x06-pointers_arrays_strings) | This directory covers more pointers, arrays, & strings in C
 
 ## Quick start :runner:
 Git clone the repository:
