@@ -15,7 +15,8 @@ int _strlen(char *s)
 }
 
 /**
- * _strcat - concatenates two strings
+ * _strncat - concatenates two strings,
+ * but uses at most, n bytes from src
  * @dest: string to dest
  * @src: string origin
  * @n: number of bytes
