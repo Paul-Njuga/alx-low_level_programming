@@ -24,27 +24,13 @@ char *_strcat(char *dest, char *src)
 {
 	int i, den, sen;
 
-	/**
-	 * dest len (den)
-	 * i + 1 includes '\0' thus,
-	 * special char ' ',
-	 * is handled
-	 */
 	den = _strlen(dest);
-
-	/** 
-	 * src len (sen)
-	 * i + 1 includes '\0' thus,
-	 * special char '\n',
-	 * is handled
-	 */
 	sen = _strlen(src);
 
 	/**
 	 * copy of src[i] comes after den,
-	 * i <= sen includes '\0'
 	 */
-	for (i = 0; i <= sen; i++)
+	for (i = 0; i < sen; i++)
 		dest[den + i] = src[i];
 
 	return (dest);
