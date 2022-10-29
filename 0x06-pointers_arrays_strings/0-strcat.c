@@ -38,7 +38,7 @@ char *_strcat(char *dest, char *src)
 	 * special char '\n',
 	 * is handled
 	 */
-	sen = i + 1;
+	sen = _strlen(src) + 1;
 
 	/**
 	 * copy of src[i] comes after den,
