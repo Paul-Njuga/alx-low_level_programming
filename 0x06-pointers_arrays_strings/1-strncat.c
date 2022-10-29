@@ -18,6 +18,7 @@ int _strlen(char *s)
  * _strcat - concatenates two strings
  * @dest: string to dest
  * @src: string origin
+ * @n: number of bytes
  * Return: dest
  */
 char *_strcat(char *dest, char *src, int n)
