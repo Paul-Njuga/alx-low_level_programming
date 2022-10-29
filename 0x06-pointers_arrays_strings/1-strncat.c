@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
 * _strlen - returns the length of a string
 *@s: poiter of character
@@ -7,29 +7,30 @@
 */
 int _strlen(char *s)
 {
-	int len;
+	int len = 0;
 
-	len = 0;
 	while (*(s + len) != '\0')
 		len++;
 	return (len);
 }
 
 /**
-* *_strncat - concatenates two strings
-*@dest: string to print
-*@src: string origin
-*@n: number of bytes
-*Return: dest
-*/
-char *_strncat(char *dest, char *src, int n)
+ * _strcat - concatenates two strings
+ * @dest: string to dest
+ * @src: string origin
+ * Return: dest
+ */
+char *_strcat(char *dest, char *src, int n)
 {
-	int i, len;
+	int i, den;
 
-	len = _strlen(dest);
+	den = _strlen(dest);
+
+	/**
+	 * copy of src[i] comes after den,
+	 */
 	for (i = 0; (i < n && src[i] != '\0'); i++)
-	{
-		dest[len + i] = src[i];
-	}
+		dest[den + i] = src[i];
+
 	return (dest);
 }
