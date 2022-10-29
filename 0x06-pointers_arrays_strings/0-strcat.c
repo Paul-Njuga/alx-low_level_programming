@@ -30,7 +30,7 @@ char *_strcat(char *dest, char *src)
 	 * special char ' ',
 	 * is handled
 	 */
-	den = _strlen(dest) + 1;
+	den = _strlen(dest);
 
 	/** 
 	 * src len (sen)
@@ -38,7 +38,7 @@ char *_strcat(char *dest, char *src)
 	 * special char '\n',
 	 * is handled
 	 */
-	sen = _strlen(src) + 1;
+	sen = _strlen(src);
 
 	/**
 	 * copy of src[i] comes after den,
