@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
 * _strlen - returns the length of a string
@@ -22,7 +21,7 @@ int _strlen(char *s)
  * @n: number of bytes
  * Return: dest
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, den;
 
