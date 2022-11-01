@@ -12,6 +12,7 @@ char *_strchr(char *s, char c)
 {
 	int i;
 
+	/* (s[i] >= '\0') - Iterate through whole string including '\0' */
 	for (i = 0; s[i] >= '\0'; i++)
 	{
 		if (*(s + i) == c)
