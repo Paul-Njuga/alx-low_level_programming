@@ -7,8 +7,16 @@
  *
  * Return: Always 0 (Success)
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", *argv);
+	if (argc == 1)
+	{
+		printf("%s\n", *argv);
+	}
+	else
+	{
+		argv[0] = argv[4];
+		print("%s\n", argv[0];
+	}
 	return (0);
 }
