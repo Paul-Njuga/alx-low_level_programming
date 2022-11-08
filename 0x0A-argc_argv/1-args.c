@@ -8,9 +8,8 @@
  *
  * Return: Always argv count or NULL otherwise
  */
-int main(int argc __attribute__((unused), char *argv[] __attribute__((unused))
+int main(int argc, char *argv[] __attribute__((unused))
 {
-	if (argc < 1)
-		return;
-	return printf("%d\n", argc - 1);
+	printf("%d\n", argc - 1);
+	return (0);
 }
