@@ -13,9 +13,9 @@ int main(int argc, char *argv[])
 	int i, sum = 0;
 	unsigned int n;
 
-	if (argc < 1)
+	if (argc < 3)
 	{
-		printf("\n");
+		printf("0\n");
 		return (0);
 	}
 
