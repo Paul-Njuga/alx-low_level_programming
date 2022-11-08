@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
 	if (argv[0] == 'mv' && argc == 3)
 		argv[0] = argv[2];
-	printf("%s\n", argv[0]);
+	else
+		printf("%s\n", argv[0]);
 	return (0);
 }
