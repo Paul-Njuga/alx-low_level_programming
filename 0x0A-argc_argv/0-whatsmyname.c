@@ -5,9 +5,9 @@
  * @argc: argument count
  * @argv: double pointer to char
  *
- * Return: 0 (Always Success)
+ * Return: Always 0 (Success)
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	if (argv[0] == 'mv' && argc == 3)
 		argv[0] = argv[2];
