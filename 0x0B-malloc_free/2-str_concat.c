@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 
 	sz1 = _strlen(s1);
 	sz2 = _strlen(s2);
-	sum = sz1 + sz2
+	sum = sz1 + sz2;
 
 	if (s1 == NULL)
 		sum = sz2;
