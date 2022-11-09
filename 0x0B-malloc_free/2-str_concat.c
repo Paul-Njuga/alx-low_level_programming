@@ -35,16 +35,15 @@ char *str_concat(char *s1, char *s2)
 		sz1 = 0;
 	else if (s2 == NULL)
 		sz2 = 0;
-
 	sum = sz1 + sz2;
-	p = malloc(sizeof(*p) * (sum + 1));
 
+	p = malloc(sizeof(*p) * (sum + 1));
 	if (p == NULL)
 		return (NULL);
 
-	for (i = 0; i <= sz1; i++)
+	for (i = 0; i < sz1; i++)
 		p[i] = s1[i];
-	for (; i <= sum; i++)
+	for (; i < sum; i++)
 		p[i] = s2[i];
 	p[sum + 1] = '\0';
 
