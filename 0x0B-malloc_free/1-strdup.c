@@ -27,13 +27,14 @@ char *_strdup(char *str)
 	char *dup;
 	unsigned int i, size;
 
+	if (str == NULL)
+		return (NULL);
+
 	/* Account for '\0' */
 	size = _strlen(str) + 1;
 
 	dup = malloc(sizeof(*dup) * size);
 
-	if (str == NULL)
-		return (NULL);
 	if (dup == NULL)
 		return (NULL);
 	for (i = 0; i <= size; i++)
