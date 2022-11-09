@@ -44,7 +44,10 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; i < sz1; i++)
 		p[i] = s1[i];
 	for (; i < sum; i++)
+	{
 		p[i] = s2[j];
+		j++;
+	}
 	p[sum + 1] = '\0';
 
 	return (p);
