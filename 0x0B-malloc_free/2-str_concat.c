@@ -41,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 	if (p == NULL)
 		return (NULL);
 
-	for (i = 0; i <= sz1; i++)
+	for (i = 0; i < sz1; i++)
 		p[i] = s1[i];
 	for (; i <= sum; i++)
 	{
