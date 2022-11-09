@@ -26,7 +26,7 @@ int _strlen(char *s)
 char *str_concat(char *s1, char *s2)
 {
 	char *p;
-	unsigned int i, sum, sz1, sz2;
+	unsigned int i, j = 0, sum, sz1, sz2;
 
 	sz1 = _strlen(s1);
 	sz2 = _strlen(s2);
@@ -44,7 +44,7 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; i < sz1; i++)
 		p[i] = s1[i];
 	for (; i < sum; i++)
-		p[i] = s2[i];
+		p[i] = s2[j];
 	p[sum + 1] = '\0';
 
 	return (p);
