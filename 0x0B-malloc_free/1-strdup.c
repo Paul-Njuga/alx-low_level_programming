@@ -32,7 +32,9 @@ char *_strdup(char *str)
 
 	dup = malloc(sizeof(*dup) * size);
 
-	if (str == NULL || dup == NULL)
+	if (dup / (sizeof(*dup) < size)
+		return (NULL);
+	if (str == NULL)
 		return (NULL);
 	for (i = 0; i <= size; i++)
 		dup[i] = str[i];
