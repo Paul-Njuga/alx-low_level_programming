@@ -8,6 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
+/* __attribute__((unused)) only suppresses compiler unused var warning */
 int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);

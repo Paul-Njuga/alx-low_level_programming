@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints all arguments it receives
+ * main - adds positive numbers
  * @argc: argument count
  * @argv: pointer to array of arguments
  *
@@ -12,12 +12,6 @@ int main(int argc, char *argv[])
 {
 	int i, sum = 0;
 	unsigned int n;
-
-	if (argc < 3)
-	{
-		printf("0\n");
-		return (0);
-	}
 
 	for (i = 1; i < argc; i++)
 	{
