@@ -36,6 +36,11 @@ int main(int argc, char *argv[])
 				change += rnd;
 				rem = n % coins[i];
 				n = rem;
+				/**
+				 * (Improved version)
+				 * change++
+				 * n -= coins[i]
+				 */
 			}
 		}
 		printf("%d\n", change);
