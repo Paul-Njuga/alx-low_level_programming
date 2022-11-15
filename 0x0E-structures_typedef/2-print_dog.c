@@ -6,7 +6,7 @@
  */
 void print_dog(struct dog *d)
 {
-	if (d == NUll)
+	if (d == NULL)
 		return;
 	/* Set value of member name to string "(nil)" */
 	if (d->name == NULL)
