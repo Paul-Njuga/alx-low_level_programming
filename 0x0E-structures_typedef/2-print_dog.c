@@ -8,7 +8,13 @@ void print_dog(struct dog *d)
 {
 	if (d == NUll)
 		return;
-	(d->name == NULL) ? printf("Name: (nil)\n") : printf("Name: %s\n", d->name);
-	(d->age == NULL) ? printf("Age: (nil)\n") : printf("Age: %d\n", d->age);
-	(d->owner == NULL) ? printf("Name: (nil)\n") : printf("Name: %s\n", d->owner);
+	/* Set value of member name to string "(nil)" */
+	if (d->name == NULL)
+		d->name = "(nil)";
+	/* Set value of member owner to string "(nil)" */
+	if (d->owner == NULL)
+		d->owner = "(nil)";
+	/* Member age isn't assigned nil cause it's an int */
+
+	printf("Name: %s\nAge: %0.6f\nOwner: %s\n", d->name, d->age, d->owner);
 }
