@@ -9,13 +9,13 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog *new_dog;
+	struct dog *d;
 
-	new_dog = malloc(sizeof(struct dog));
+	d = malloc(sizeof(struct dog));
 	if (d == NULL)
 		return (NULL);
 	d->name = name;
 	d->age = age;
 	d->owner = owner;
-	free(new_dog);
+	free(d);
 }
