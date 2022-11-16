@@ -68,7 +68,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	/* malloc mem using lown */
 	d->owner = malloc(sizeof(char) * (lown + 1));
 	/* Free everything if malloc fails */
-	if (d-> owner == NULL)
+	if (d->owner == NULL)
 	{
 		free(d->owner);
 		free(d);
