@@ -47,20 +47,19 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *d;
 	int lnm, lown;
 
-	d = malloc(sizeof(dog_t));
-	if (d == NULL)
-		return (NULL);
-
 	/* Get length of name and owner */
 	lnm = _strlen(name);
 	lown = _strlen(owner);
+
+	d = malloc(sizeof(dog_t));
+	if (d == NULL)
+		return (NULL);
 
 	/* malloc mem using lnm */
 	d->name = malloc(sizeof(char) * (lnm + 1));
 	/* Free everything if malloc fails */
 	if (d->name == NULL)
 	{
-		free(d->name);
 		free(d);
 		return (NULL);
 	}
@@ -70,7 +69,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	/* Free everything if malloc fails */
 	if (d->owner == NULL)
 	{
-		free(d->owner);
+		free(d->name);
 		free(d);
 		return (NULL);
 	}
