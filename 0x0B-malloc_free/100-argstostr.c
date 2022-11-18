@@ -16,10 +16,16 @@ char *argstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
+	/**
+	 * Get len of each arg in array
+	 * i reps argv
+	 * j reps each string
+	 */
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
 			len++;
+		/* Account for '\n' */
 		len++;
 	}
 

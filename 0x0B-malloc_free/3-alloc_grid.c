@@ -16,14 +16,14 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 
 	/* Assign an array of pointers to the row */
-	p = (int **) malloc(sizeof(int *) * height);
+	p = malloc(sizeof(**p) * height);
 	if  (p == NULL)
 		return (NULL);
 
 	for (i = 0; i < height; i++)
 	{
 		/* Assign pointers to the column */
-		p[i] = (int *) malloc(sizeof(int) * width);
+		p[i] = malloc(sizeof(*p) * width);
 		if (p[i] == NULL)
 		{
 			/* Everything is freed if malloc fails */
