@@ -7,6 +7,7 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
+	/* Only check for pointers */
 	if (!name || !f)
 		return;
 
