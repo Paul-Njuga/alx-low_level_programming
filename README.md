@@ -19,7 +19,7 @@ Directories | Description
 [0x02-functions_nested_loops](./0x02-functions_nested_loops) | This directory is an intro to functions and nested loops in C
 [0x03-debugging](./0x03-debugging) | This directory covers debbuging in C
 [0x04-more_functions_nested_loops](./0x04-more_functions_nested_loops) | This directory covers more functions and nested loops in C
-[0x05-pointers_arrays_strings](./0x05-pointers_arrays_strings) | This directory covers pointers, arrays, & strings in C
+[0x05-pointers_arrays_strings](./0x05-pointers_arrays_strings) | This directory is an intro to pointers, arrays, & strings in C
 [0x06-pointers_arrays_strings](./0x06-pointers_arrays_strings) | This directory covers more pointers, arrays, & strings in C
 [0x07-pointers_arrays_strings](./0x07-pointers_arrays_strings) | This directory covers even more pointers, arrays, & strings in C
 [0x08-recursion](./0x08-recursion) | This directory covers recursion in C
