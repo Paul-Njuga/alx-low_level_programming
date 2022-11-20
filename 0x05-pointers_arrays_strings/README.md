@@ -1,19 +1,20 @@
-# C - Pointers, arrays & strings :computer:
+# C - Pointers, arrays & strings :computer
+
 This directory is an intro to pointers, arrays, & strings in C and covers topics such as data structures & the C memory layout.
 
-## Requirements :bookmark_tabs:
-* Allowed editors: ```vi```, ```vim```, ```emacs```
-* All your files will be compiled on Ubuntu 20.04 LTS using ```gcc``` using options ```-wall -werror -Wextra -pedantic -std=gnu89```
-* All files should end with a new line
-* A '''README.md''' file, at the root of the folder of the project
-* You are not allowed to use global variables
-* No more than 5 functions per file
-* You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
-* You are allowed to use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c)
-* The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
-* Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```
+## Requirements :bookmark_tabs
 
-## Table of contents:
+* A ```README.md``` file, at the root of the folder of the project.
+* Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```.
+* All files should end with a new line.
+* You are not allowed to use global variables.
+* You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden.
+* You are allowed to use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c).
+* No more than 5 functions per file.
+* The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called ```main.h```.
+
+## Table of contents
+
 Directories | Description
 ----------- | -----------
 [main.h](./main.h) | C header file that contains function prototypes
@@ -30,13 +31,14 @@ Directories | Description
 [100-atoi.c](./100-atoi.c) | C function that convert a string to an integer
 [101-keygen.c](./101-keygen.c) | C program that generates random valid passwords for the program [101-crackme](https://github.com/holbertonschool/0x04.c)
 
+## Bugs :loudspeaker
 
-## Bugs :loudspeaker:
 No known bugs.
 
-## To Do:
+## To Do
+
 Update [101-keygen.c](./101-keygen.c) file
 
+## Authors :black_nib
 
-## Authors :black_nib:
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)

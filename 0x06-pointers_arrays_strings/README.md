@@ -1,19 +1,20 @@
-# C - More pointers, arrays & strings :computer:
+# C - More pointers, arrays & strings :computer
+
 This directory covers more pointers, arrays, & strings in C.
 
-## Requirements :bookmark_tabs:
-* Allowed editors: ```vi```, ```vim```, ```emacs```
-* All your files will be compiled on Ubuntu 20.04 LTS using ```gcc``` using options ```-wall -werror -Wextra -pedantic -std=gnu89```
-* All files should end with a new line
-* A '''README.md''' file, at the root of the folder of the project
-* You are not allowed to use global variables
-* No more than 5 functions per file
-* You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
-* You are allowed to use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c)
-* The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
-* Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```
+## Requirements :bookmark_tabs
 
-## Table of contents:
+* A ```README.md``` file, at the root of the folder of the project.
+* Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```.
+* All files should end with a new line.
+* You are not allowed to use global variables.
+* You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden.
+* You are allowed to use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c).
+* No more than 5 functions per file.
+* The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called ```main.h```.
+
+## Table of contents
+
 Directories | Description
 ----------- | -----------
 [main.h](./main.h) | C header file that contains function prototypes
@@ -31,10 +32,10 @@ Directories | Description
 [103-infinite_add.c](./103-infinite_add.c) | C function that adds two numbers
 [104-print_buffer.c](./104-print_buffer.c) | C function that prints a buffer
 
+## Bugs :loudspeaker
 
-## Bugs :loudspeaker:
 No known bugs.
 
+## Authors :black_nib
 
-## Authors :black_nib:
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)

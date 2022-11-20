@@ -1,16 +1,16 @@
-# C - Variables, if, else, while :computer:
+# C - Variables, if, else, while :computer
+
 This directory is an intro to control flow in C and covers topics such as keywords & indentifiers, arithmetic operators, relational & logical operators, & control flow statements.
 
-## Requirements :bookmark_tabs:
-* Allowed editors: ```vi```, ```vim```, ```emacs```
-* All your files will be compiled on Ubuntu 20.04 LTS using ```gcc``` using options ```-wall -werror -Wextra -pedantic -std=gnu89```
-* All files should end with a new line
-* A '''README.md''' file, at the root of the folder of the project
-* There should be no errors and no warnings during compilation
-* You are not allowed to use ```system```
-* Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```
+## Requirements :bookmark_tabs
 
-## Table of contents:
+* A ```README.md``` file, at the root of the folder of the project.
+* Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```.
+* All files should end with a new line.
+* There should be no errors and no warnings during compilation.
+
+## Table of contents
+
 Directories | Description
 ----------- | -----------
 [0-positive_or_negative.c](./0-positive_or_negative.c) | C program that checks if last digit of a number is ```<0```, ```==0```, or ```>0```
@@ -27,9 +27,10 @@ Directories | Description
 [101-print_comb4.c](./101-print_comb4.c) | C program that prints all possible combinations of three digits
 [102-print_comb5.c](./102-print_comb5.c) | C program that prints all possible combinations of two two-digit numbers
 
-## Bugs :loudspeaker:
+## Bugs :loudspeaker
+
 No known bugs.
 
+## Authors :black_nib
 
-## Authors :black_nib:
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)
