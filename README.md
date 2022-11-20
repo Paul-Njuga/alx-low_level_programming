@@ -1,8 +1,8 @@
-# ALX - Low Level Programming :computer
+# ALX - Low Level Programming :computer:
 
 This repository contains C projects and other low level programming exercices.
 
-## Requirements :bookmark_tabs
+## Requirements :bookmark_tabs:
 
 * Allowed editors: ```vi```, ```vim```, ```emacs```.
 * Your code should use the Betty style.
@@ -32,16 +32,16 @@ Directories | Description
 [0x0F-function_pointers](./0x0F-function_pointers) | This directory covers function pointers in C
 [0x10-variadic_functions](./0x10-variadic_functions) | This directory covers variadic functions in C
 
-## Quick start :runner
+## Quick start :runner:
 
 Git clone the repository:
 
 ```git clone https://github.com/Paul-Njuga/alx-low_level_programming.git```
 
-## Bugs :loudspeaker
+## Bugs :loudspeaker:
 
 No known bugs.
 
-## Authors :black_nib
+## Authors :black_nib:
 
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)
