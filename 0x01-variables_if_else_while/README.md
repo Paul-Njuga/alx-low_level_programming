@@ -1,8 +1,8 @@
-# C - Variables, if, else, while :computer
+# C - Variables, if, else, while :computer:
 
 This directory is an intro to control flow in C and covers topics such as keywords & indentifiers, arithmetic operators, relational & logical operators, & control flow statements.
 
-## Requirements :bookmark_tabs
+## Requirements :bookmark_tabs:
 
 * A ```README.md``` file, at the root of the folder of the project.
 * Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```.
@@ -27,10 +27,10 @@ Directories | Description
 [101-print_comb4.c](./101-print_comb4.c) | C program that prints all possible combinations of three digits
 [102-print_comb5.c](./102-print_comb5.c) | C program that prints all possible combinations of two two-digit numbers
 
-## Bugs :loudspeaker
+## Bugs :loudspeaker:
 
 No known bugs.
 
-## Authors :black_nib
+## Authors :black_nib:
 
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)

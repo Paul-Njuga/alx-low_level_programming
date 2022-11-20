@@ -1,4 +1,4 @@
-# C - Hello, World :computer
+# C - Hello, World :computer:
 
 This project is an intro to C and covers topics such as C, it's compilation process, & the Betty Coding style.
 
@@ -9,7 +9,7 @@ This project is an intro to C and covers topics such as C, it's compilation proc
 * ```puts```
 * ```putchar```
 
-## Requirements :bookmark_tabs
+## Requirements :bookmark_tabs:
 
 ### C
 
@@ -20,7 +20,7 @@ This project is an intro to C and covers topics such as C, it's compilation proc
 ### Shell Scripts
 
 * All your scripts should be exactly two lines long (```$ wc -l file``` should print 2).
-* The first line of all your files should be exactly ```#!/bin/bash```.
+* :The first line of all your files should be exactly ```#!/bin/bash```.
 * All your files should end with a new line.
 
 ## Table of contents
@@ -37,10 +37,10 @@ Directories | Description
 [100-intel](./100-intel) | Shell script that generates the assembly code (Intel syntax) of a C code and saves it in an output file
 [101-quote.c](./101-quote.c) | C program that prints exactly ```and that piece of art is useful" - Dora Korpar, 2015-10-19```, followed by a new line, to the standard error
 
-## Bugs :loudspeaker
+## Bugs :loudspeaker:
 
 No known bugs.
 
-## Authors :black_nib
+## Authors :black_nib:
 
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)

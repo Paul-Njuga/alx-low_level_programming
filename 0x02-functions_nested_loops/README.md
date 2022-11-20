@@ -1,8 +1,8 @@
-# C - Functions, nested loops :computer
+# C - Functions, nested loops :computer:
 
 This directory is an intro to functions and nested loops in C and covers topics such as function prototypes & header files.
 
-## Requirements :bookmark_tabs
+## Requirements :bookmark_tabs:
 
 * A ```README.md``` file, at the root of the folder of the project.
 * Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```.
@@ -36,10 +36,10 @@ Directories | Description
 [103-fibonacci.c](./103-fibonacci.c) | C program that prints the sum of the even-valued terms
 [104-fibonacci.c](./104-fibonacci.c) | C program that prints the first 98 Fibonacci numbers, starting with ```1``` and ```2```
 
-## Bugs :loudspeaker
+## Bugs :loudspeaker:
 
 No known bugs.
 
-## Authors :black_nib
+## Authors :black_nib:
 
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)

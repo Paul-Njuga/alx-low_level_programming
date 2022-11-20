@@ -1,8 +1,8 @@
-# C - Debugging :computer
+# C - Debugging :computer:
 
 This directory is an intro to debugging and covers topics such as rubber duck debugging & how to read error messages in C.
 
-## Requirements :bookmark_tabs
+## Requirements :bookmark_tabs:
 
 * A ```README.md``` file, at the root of the folder, containing a description of the repository.
 * Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```.
@@ -18,10 +18,10 @@ Directories | Description
 [2-largest_number.c](./2-largest_number.c) | Comment out the part of code causing an infinite loop in the output in this C program
 [3-print_remaining_days.c](./3-print_remaining_days.c) | Fix the code so that it correctly prints out the largest of three numbers, no matter the case
 
-## Bugs :loudspeaker
+## Bugs :loudspeaker:
 
 No known bugs.
 
-## Authors :black_nib
+## Authors :black_nib:
 
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)

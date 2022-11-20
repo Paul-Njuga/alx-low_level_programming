@@ -1,8 +1,8 @@
-# C - More functions, more nested loops :computer
+# C - More functions, more nested loops :computer:
 
 This directory covers more functions and nested loops in C.
 
-## Requirements :bookmark_tabs
+## Requirements :bookmark_tabs:
 
 * A ```README.md``` file, at the root of the folder of the project.
 * Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```.
@@ -32,10 +32,10 @@ Directories | Description
 [100-prime_factor.c](./100-prime_factor.c) | C program that finds and prints the largest prime factor of the number ```612852475143```
 [101-print_number.c](./101-print_number.c) | C function that prints an integer
 
-## Bugs :loudspeaker
+## Bugs :loudspeaker:
 
 No known bugs.
 
-## Authors :black_nib
+## Authors :black_nib:
 
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)

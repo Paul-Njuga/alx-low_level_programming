@@ -1,8 +1,8 @@
-# C - More pointers, arrays & strings :computer
+# C - More pointers, arrays & strings :computer:
 
 This directory covers more pointers, arrays, & strings in C.
 
-## Requirements :bookmark_tabs
+## Requirements :bookmark_tabs:
 
 * A ```README.md``` file, at the root of the folder of the project.
 * Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```.
@@ -32,10 +32,10 @@ Directories | Description
 [103-infinite_add.c](./103-infinite_add.c) | C function that adds two numbers
 [104-print_buffer.c](./104-print_buffer.c) | C function that prints a buffer
 
-## Bugs :loudspeaker
+## Bugs :loudspeaker:
 
 No known bugs.
 
-## Authors :black_nib
+## Authors :black_nib:
 
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)

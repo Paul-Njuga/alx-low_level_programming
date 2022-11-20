@@ -1,8 +1,8 @@
-# C - Pointers, arrays & strings :computer
+# C - Pointers, arrays & strings :computer:
 
 This directory is an intro to pointers, arrays, & strings in C and covers topics such as data structures & the C memory layout.
 
-## Requirements :bookmark_tabs
+## Requirements :bookmark_tabs:
 
 * A ```README.md``` file, at the root of the folder of the project.
 * Your code should use the Betty style. It will be checked using ```betty-style.pl``` and ```betty-doc.pl```.
@@ -31,7 +31,7 @@ Directories | Description
 [100-atoi.c](./100-atoi.c) | C function that convert a string to an integer
 [101-keygen.c](./101-keygen.c) | C program that generates random valid passwords for the program [101-crackme](https://github.com/holbertonschool/0x04.c)
 
-## Bugs :loudspeaker
+## Bugs :loudspeaker:
 
 No known bugs.
 
@@ -39,6 +39,6 @@ No known bugs.
 
 Update [101-keygen.c](./101-keygen.c) file
 
-## Authors :black_nib
+## Authors :black_nib:
 
 **Paul Njuga** [Github](https://github.com/Paul-Njuga)
