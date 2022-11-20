@@ -11,7 +11,7 @@ This directory is an intro to pointers, arrays, & strings in C and covers topics
 * You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden.
 * You are allowed to use [_putchar](https://github.com/holbertonschool/_putchar.c/blob/master/_putchar.c).
 * No more than 5 functions per file.
-* The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called ```main.h```.
+* The prototypes of all your functions and the prototype of the function ```_putchar``` should be included in your header file called ```main.h```.
 
 ## Table of contents
 
