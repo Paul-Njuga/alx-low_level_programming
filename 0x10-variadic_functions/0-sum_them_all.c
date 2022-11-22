@@ -8,18 +8,16 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int index;
+	unsigned int i;
 	int sum = 0;
-	va_list ptr;
+	va_list list;
 
-	va_start(ptr, n);
+	va_start(list, n);
 
-	for (index = 0; index < n; index++)
-	{
-		sum = sum + var_arg(ptr, int);
-	}
+	for (i = 0; i < n; i++)
+		sum += var_arg(list, int);
 
-	va_end(ptr);
+	va_end(list);
 
 	return (sum);
 }
