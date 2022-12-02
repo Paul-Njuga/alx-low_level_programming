@@ -2,14 +2,19 @@
 
 /**
  * free_listint2 - frees a listint_t list
- * @head: double pointer to head;
+ * @head: double pointer to head linked list;
  */
 
 void free_listint2(listint_t **head)
 {
-	while (*head)
+	listint_t *tmp; /* Tmp holds *head->next */
+
+	if (*head == NULL || head == NULL)
+		return;
+
+	while ((*head)->next != NULL)
 	{
 		free(*head);
-		*head = NULL;
 	}
+	*head = NULL;
 }
