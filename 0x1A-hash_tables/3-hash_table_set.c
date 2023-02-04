@@ -2,7 +2,7 @@
 
 /**
  * create_item -  Creates the hash_table item
- * 
+ *
  * @key: The key
  * @value: Value associated with the key
  * Return: Pointer to the item if success, NULL otherwise
@@ -15,8 +15,8 @@ hash_node_t *create_item(const char *key, const char *value)
 		return (NULL);
 
 	item = malloc(sizeof(hash_node_t));
-	item->key = (char*) malloc(strlen(key) + 1);
-	item->value = (char*) malloc(strlen(value) + 1);
+	item->key = (char *) malloc(strlen(key) + 1);
+	item->value = (char *) malloc(strlen(value) + 1);
 	item->next = NULL;
 
 	if (key != NULL)
@@ -32,7 +32,7 @@ hash_node_t *create_item(const char *key, const char *value)
  * @ht: Hash table
  * @key: The key
  * @value: Value associated with the key
- * Returns: 1 if it succeeded, 0 otherwise
+ * Return: 1 if it succeeded, 0 otherwise
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
@@ -57,7 +57,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		}
 		tmp = tmp->next;
 	}
-	
+
 	item->next = ht->array[index];
 	ht->array[index] = item;
 	return (1);
