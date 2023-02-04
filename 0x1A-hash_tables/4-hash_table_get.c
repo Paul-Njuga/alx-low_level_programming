@@ -10,8 +10,11 @@
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
-	hash_node_t *tmp;
+	hash_node_t *tmp = NULL;
 	unsigned int index;
+
+	if (!ht || !key || !strcmp(key, ""))
+		return (NULL);
 
 	index = key_index((const unsigned char *)key, ht->size);
 	tmp = ht->array[index];
