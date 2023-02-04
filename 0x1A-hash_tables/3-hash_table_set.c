@@ -53,6 +53,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			new_val = strdup(value);
 			free(tmp->value); /* Since we set it above */
 			tmp->value = new_val;
+			return (1);
 		}
 		tmp = tmp->next;
 	}
