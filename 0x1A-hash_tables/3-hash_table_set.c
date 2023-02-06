@@ -15,15 +15,12 @@ hash_node_t *create_item(const char *key, const char *value)
 		return (NULL);
 
 	item = malloc(sizeof(hash_node_t));
-	if (item == NULL)
-		return (NULL);
 	item->key = (char *) malloc(strlen(key) + 1);
-	if (item->key == NULL)
-		return (NULL);
 	item->value = (char *) malloc(strlen(value) + 1);
-	if (item->value == NULL)
-		return (NULL);
 	item->next = NULL;
+
+	if (item == NULL || item->key == NULL || item->value == NULL)
+		return (NULL);
 
 	if (key != NULL)
 		strcpy(item->key, key);
